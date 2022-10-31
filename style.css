@@ -78,14 +78,14 @@ button:hover {
   
 }
 
-button[data-action="c"] {
+button[data-number="c"] {
   grid-column: span 2;
   background-color: #71c1ff;
   font-weight: 400;
   font-size: 25px;
 }
 
-button[data-action="="] {
+button[data-number="equal"] {
   grid-column: span 2;
   font-weight: 400;
   font-size: 30px;

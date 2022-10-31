@@ -25,10 +25,11 @@ const calculer = (valeurNumber) => {
         const indexDataNumber = 
         dataNumber.indexOf(valeurNumber);
         const numberButton = numberButtons[indexDataNumber];
-        resultDisplay.textContent += numberButton.innerHTML
+        resultDisplay.textContent += numberButton.innerHTML;
     }
   }
 }
+
 
 
 
