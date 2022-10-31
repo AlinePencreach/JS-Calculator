@@ -4,14 +4,6 @@ const resultDisplay = document.querySelector(".result");
 const equalsButton = document.querySelector('equal');
 
 
-// document.addEventListener('click', (e) => {
-//   const valeurNumber = e.target.dataset.number;
-//   // resultDisplay.textContent = valeurNumber ;
-//   // console.log(dataNumber);
-//   // console.log(resultDisplay, typeof(resultDisplay));
-//   calculate(valeurNumber)
-// });
-
 numberButtons.forEach((numberButton) => {
   numberButton.addEventListener("click", (e) => {
     const valeurNumber = e.target.dataset.number;
@@ -30,7 +22,8 @@ const calculer = (valeurNumber) => {
         resultDisplay.textContent = calcul;
         break;
       default:
-        const indexDataNumber = dataNumber.indexOf(valeurNumber);
+        const indexDataNumber = 
+        dataNumber.indexOf(valeurNumber);
         const numberButton = numberButtons[indexDataNumber];
         resultDisplay.textContent += numberButton.innerHTML
     }
