@@ -1,7 +1,7 @@
 const numberButtons = [...document.querySelectorAll('[data-number]')];
 const dataNumber = numberButtons.map((numberButton) => numberButton.dataset.number);
 const resultDisplay = document.querySelector(".result");
-const equalsButton = document.querySelector('equal');
+// const equalButton = document.querySelector('equal');
 
 
 numberButtons.forEach((numberButton) => {
@@ -19,6 +19,7 @@ const calculer = (valeurNumber) => {
         break;
       case 'equal' :
         const calcul = eval(resultDisplay.textContent);
+        console.log(resultDisplay.textContent);
         resultDisplay.textContent = calcul;
         break;
       default:
