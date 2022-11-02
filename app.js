@@ -1,7 +1,6 @@
 const numberButtons = [...document.querySelectorAll('[data-number]')];
 const dataNumber = numberButtons.map((numberButton) => numberButton.dataset.number);
 const resultDisplay = document.querySelector(".result");
-// const equalButton = document.querySelector('equal');
 
 
 numberButtons.forEach((numberButton) => {
