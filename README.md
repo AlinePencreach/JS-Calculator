@@ -1,2 +1,2 @@
 # JS-Calculator
-Learning JS with making a calculator
+Practicing *JavaScript* with making a calculator
